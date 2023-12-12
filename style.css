@@ -1,0 +1,69 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: hsl(30, 38%, 92%);
+    display:flex ;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    font-family: sans-serif;
+}
+.parent{
+    display: flex;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    width: 500px;
+    
+
+}
+.parent img{
+    width: 50%;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.child{
+    padding: 30px;
+}
+.price{
+    display: flex;
+    align-items: center;
+}
+.price span{
+    margin-left: 20px;
+    text-decoration: line-through;
+    font-size: small;
+    font-family: 'Fraunces', serif;
+    color: hsl(158, 36%, 37%);
+}
+button{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 5%;
+    background-color: hsl(158, 36%, 37%);
+    font-family: sans-serif;
+    color: white;
+    cursor: pointer;
+    padding: 5px 0;
+}
+.price h1{
+    color: hsl(158, 36%, 37%);
+    font-family: 'Fraunces', serif;
+}
+.but img{
+    width:20px;
+}
+.title{
+    font-family: sans-serif;
+    letter-spacing: 4px;
+    color:hsl(158, 36%, 37%) ;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+.child h1{
+    color: hsl(212, 21%, 14%);
+}
